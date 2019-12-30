@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-24T19:42:38.439Z",
+        "line": 4,
+        "name": "Login scenario",
+        "description": "",
+        "id": "login-feature;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5728600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am logged in to google.com",
+            "match": {
+              "location": "LoginSteps.i_am_logged_in_to_google_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6098300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am in google page.",
+            "match": {
+              "location": "LoginSteps.i_am_in_google_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Thiru1"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
